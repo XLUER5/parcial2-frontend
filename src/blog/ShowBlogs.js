@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 
-const URI = "http://localhost:8000/blogs/";
+const URI = "http://3.22.9.231:8000/blogs/";
 
 const ShowBlogs = () => {
   const [item, setItem] = useState([]);

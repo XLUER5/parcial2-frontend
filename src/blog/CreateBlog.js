@@ -8,7 +8,7 @@ export default function CreateBlog() {
 
   const navigate = useNavigate();
 
-  const URI = "http://localhost:8000/blogs/";
+  const URI = "http://3.22.9.231:8000/blogs/";
 
   const onSubmit = async (data) => {
     const res = await axios.post(URI, data);

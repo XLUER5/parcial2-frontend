@@ -14,7 +14,7 @@ export default function EditBlog() {
 
   const { id } = useParams();
 
-  const URI = "http://localhost:8000/blogs/";
+  const URI = "http://3.22.9.231:8000/blogs/";
 
   useEffect(() => {
     getBlogs(id);
